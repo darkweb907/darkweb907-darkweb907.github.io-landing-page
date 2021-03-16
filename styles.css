@@ -1,0 +1,49 @@
+.display-3{
+    font-family: 'Poppins';
+}
+.lead{
+    font-family: 'math';
+}
+.show{
+    margin-left: -24px;
+    font-family: 'san-serif';
+    font-size: 17px;
+}
+.list{
+    justify-content: space-around;
+    margin-left: -63px;
+}
+@media(max-width:500px){
+    .display-3{
+        font-size: 42px;
+    }
+    .lead{
+        font-family: sans-serif;
+    font-size: 20px;
+    line-height: 42px;
+    margin-left: 6px;
+    }
+    .show{
+        font-family: 'Poppins';
+    width: 168%;
+    margin-left: -10px;
+    font-size: 11px;
+    font-weight: bold;
+    }
+    .list{
+        justify-content: space-around;
+    margin-left: 1px;
+    font-size: 14px;
+  }
+ footer .list-group {
+      font-size: 18px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: -6px;
+    margin-bottom: 31px;
+    /* border-radius: 2.25rem; */
+    text-align: center;
+}
+}
