@@ -29,22 +29,24 @@ span{
     .new{
         text-align: center;
     }
-    .new h4{
-        width: 354px;
-    }
+    
     .good{
         text-align: end;
     }
     .home {
-        font-size: 3em;
+        font-size: 2.5em;
         text-align: center;
         color: darkblue;
     }
     .geo{
-        display: contents;
+        display:flex ;
+    }
+    .sango{
+    display: flex;
+    white-space: nowrap;
     }
     .school {
-        font-size: 3em;
+        font-size: 2.5em;
         text-align: center;
         color: darkblue;
     }
@@ -90,6 +92,9 @@ span{
     margin-bottom: 31px;
     /* border-radius: 2.25rem; */
     text-align: center;
+}
+footer ul{
+    background-color: white;
 }
 span{
     font-size: 9px;
