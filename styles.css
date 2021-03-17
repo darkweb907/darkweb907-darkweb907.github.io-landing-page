@@ -23,9 +23,25 @@ span{
     .display-3{
         font-size: 38px;
     }
-    .mt-5, .my-5 {
-        margin: 0;
-        margin-top: 3rem!important;
+    .mr-5, .mx-5 {
+        margin-right: 1rem!important;
+    }
+    .new{
+        text-align: center;
+    }
+    .new h4{
+        width: 354px;
+    }
+    .good{
+        text-align: end;
+    }
+    .home {
+        font-size: 3em;
+        text-align: center;
+        color: darkblue;
+    }
+    .geo{
+        display: contents;
     }
     .school {
         font-size: 3em;
