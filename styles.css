@@ -1,12 +1,25 @@
 .display-3{
     font-family: 'Poppins';
 }
+.home {
+    font-weight: 900;
+    font-size: 4.0em;
+    color: darkblue;
+}
+.school {
+    font-weight: 900;
+    font-size: 4.0em;
+    color: darkblue;
+}
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
     width: 100%;
     /* padding-right: 15px; */
     /* padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
+}
+p{
+    color: grey;
 }
 .lead{
     font-family: 'math';
@@ -16,6 +29,7 @@
     
 }
 .show{
+    color: lightgrey;
     font-family: 'san-serif';
     font-size: 13px;
 }
@@ -29,6 +43,9 @@
 span{
     font-size: 16px;
 }
+.display-3{
+    color: steelblue;
+}
 @media(max-width:576px){
     .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
         width: 100%;
@@ -38,6 +55,7 @@ span{
         margin-left: auto;
     }
     .display-3{
+        color: steelblue;
         font-size: 38px;
     }
     .mr-5, .mx-5 {
