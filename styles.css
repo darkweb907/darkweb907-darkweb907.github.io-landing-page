@@ -4,16 +4,26 @@
 .lead{
     font-family: 'math';
     font-size: 21px;
+    margin: 0 auto;
+    max-width: 96%;
     
 }
 .show{
-    margin-left: -24px;
     font-family: 'san-serif';
-    font-size: 17px;
+    font-size: 13px;
 }
 .list{
-    justify-content: space-around;
-    margin-left: -63px;
+    margin: 0 auto;
+    max-width: 96%;
+    justify-content: space-between;
+}
+#nail{
+    margin: 0px -15px;
+    max-width: 106%;
+}
+.good{
+    margin: 0px -15px;
+    max-width: 106%;
 }
 
 span{
@@ -45,6 +55,7 @@ span{
     display: flex;
     white-space: nowrap;
     }
+    
     .school {
         font-size: 2.5em;
         text-align: center;
@@ -89,9 +100,10 @@ span{
     -ms-flex-direction: column;
     flex-direction: column;
     padding-left: -6px;
-    margin-bottom: 31px;
     /* border-radius: 2.25rem; */
     text-align: center;
+    max-width: 95%;
+    margin: 31px auto;
 }
 footer ul{
     background-color: white;
