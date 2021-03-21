@@ -69,9 +69,11 @@ span{
         color: darkblue;
     }
     .geo{
+        padding: 0 1px;
         display:flex ;
     }
     .sango{
+        font-size: 10px;
         max-width: 100%;
     display: flex;
     white-space: nowrap;
@@ -136,4 +138,5 @@ span{
 .new{
     text-align: center;
 }
+
 }
